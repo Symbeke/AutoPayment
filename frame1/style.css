@@ -1,0 +1,158 @@
+.AutoPaymentBox {
+  height: 277px;
+  width: 870px;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.AutoPaymentInput {
+  width: 825px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.AutoPaymentToggle {
+  margin: 5px 30px 30px 0px;
+  width: 810px;
+  height: 54px;
+  background: #f5f6f8;
+  border-radius: 6px;
+  padding: 15px;
+}
+.toggleAutoPayment {
+  height: 16px;
+  width: 34px;
+  background: #adb2b3;
+  border-radius: 18px;
+}
+.custom-switch {
+  padding-left: 0.25rem;
+}
+.custom-switch .custom-control-label::after {
+  left: calc(36.75rem + 146px);
+}
+.custom-switch .custom-control-label::before {
+  left: 45.75rem;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2c3537;
+}
+.AutoPaymentButton {
+  background: #008f91;
+  border-radius: 6px;
+  width: 137px;
+  height: 48px;
+  display: flex;
+  align-self: flex-end;
+  padding: 6px 20px;
+}
+#labelbtn {
+  width: 722px;
+  height: 22px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2c3537;
+}
+.btnText {
+  width: 97px;
+  height: 20px;
+  color: #ffffff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.receiptEmail {
+  padding: 14px;
+  color: #adb2b3;
+  height: 48px;
+  width: 395px;
+  background: #ffffff;
+  border: 1px solid #d2d4d4;
+  border-radius: 6px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.paymentInput input {
+  /* position: relative; */
+  padding: 14px;
+  color: #adb2b3;
+  height: 48px;
+  width: 395px;
+  background: #ffffff;
+  border: 1px solid #d2d4d4;
+  border-radius: 6px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.paymentInput:before {
+  position: absolute;
+  top: 89px;
+  content: "₸";
+  right: -200px;
+  width: 9px;
+  height: 20px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ADB2B2;
+}
+.emailText,
+.sumText {
+  width: 206px;
+  height: 18px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2c3537;
+}
+.cardPayment {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 134%;
+  color: #2c3537;
+}
+.currencyText{
+    width: 9px;
+height: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: right;
+color: #ADB2B3;
+}
+body {
+  background-color: green;
+}

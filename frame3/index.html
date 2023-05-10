@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cardPayment">Оплата картой</div>
+      <div class="AutoPaymentBox">
+        <div class="AutoPaymentInput">
+          <div class="emailInput">
+            <span class="emailText"> E-mail для отправки квитанции</span>
+            <p><input class="receiptEmail" placeholder="e-mail" /></p>
+          </div>
+          <div class="sumInput">
+            <span class="sumText">Сумма платежа </span>
+
+            <!-- <p><input class="paymentSum" placeholder="0" /></p> -->
+            <p>
+              <span class="paymentInput"
+                ><input type="text" placeholder="0"
+              /></span>
+            </p>
+          </div>
+        </div>
+        <div class="createAutoPayment">
+          <div class="AutoPaymentToggle">
+            <div class="custom-control custom-switch">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitches"
+              />
+              <label
+                class="custom-control-label"
+                for="customSwitches"
+                >Создать автоплатеж</label
+              >
+            </div>
+          </div>
+        
+          <div class="dateSwiper">
+            <div class="select--blocks">
+              <p class="select_title"> Дата ежемесячного списания</p>
+              <div class="custom-select">
+                  <select id="LangId" name="Localization">
+                      <option default="" disabled="" selected="">Выбрать</option>
+                      <option value="ru-RU">Русский язык</option>
+                      <option value="kk-KZ">Қазақ тілі</option>
+                          <option value="en-US">English language</option>
+                  </select>
+                  </div>
+          </div>
+              <div class="datePicker">
+                <p class="datepicker_title"> Срок действия автоплатежа</p>
+                <input id="datepicker"  />
+              </div>
+          </div>
+          <div class="attentionText">
+            <div class="attentionIcon "><img src="./shape.jpg" class="attIcon"/></div>
+            <div class="attText">
+              Обратите внимание!
+              <p>Первый платеж будет проведен сегодня.</p>
+            </div>
+          </div>
+        </div>
+        <button class="AutoPaymentButton">
+          <span class="btnText">Продолжить</span>
+        </button>
+        
+      </div>
+    </div>
+    <script>
+      $('#datepicker').datepicker({
+          uiLibrary: 'bootstrap4'
+      });
+  </script>
+    <!-- <script type="text/javascript">
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script> -->
+  </body>
+</html>

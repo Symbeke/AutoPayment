@@ -1,0 +1,57 @@
+
+.container{
+    display: flex;
+flex-direction: column;
+padding: 15px 20px;
+gap: 10px;
+width: 349px;
+height: 129px;
+background: #FFFFFF;
+border-radius: 8px;
+}
+.textAutopayment{
+    width: 309px;
+height: 22px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+}
+.paymentInfo{
+    display: flex;
+flex-direction: column;
+/* align-items: flex-start; */
+padding: 10px;
+/* gap: 6px; */
+width: 309px;
+height: 67px;
+background: #F5F6F8;
+border: 1px solid #0856B1;
+border-radius: 8px;
+}
+.paymentNum{
+        font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 140%;
+display: flex;
+align-items: center;
+color: #0856B1;
+width: 229px;
+}
+.NumAndStatus{
+    display: flex;
+    flex-direction: row;
+}
+.paymentText{
+width: 289px;
+height: 16px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #878A8A;
+}

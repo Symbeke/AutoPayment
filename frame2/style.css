@@ -1,0 +1,85 @@
+.AutoPaymentBox {
+    height: 303px;
+    width: 870px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #ffffff;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 30px 57px;
+  }
+  .cardPayment {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 134%;
+    color: #2c3537;
+    margin-top: 21px;
+    margin-bottom: 19px;
+  }
+.paymentBoxText{
+    text-align: center;
+    width: 245px;
+height: 52px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: #2C3537;
+}
+.paymentBoxBtn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 20px;
+gap: 8px;
+width: 127px;
+height: 48px;
+background: #008F91;
+border-radius: 6px;
+}
+.mainMenu{
+    width: 87px;
+height: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF}
+  body{
+    background-color: green ;
+  }
+  .backBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 73px;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+align-items: center;
+text-align: center;
+color: #2C3537;
+  }
+  .backText{
+    display: flex;
+    align-items: center;
+    width: 45px;
+   height: 21px;
+  }
+  .backSign{
+    align-items: center;
+ height: 14px;
+  width: 15.5px;
+  display: flex;
+  }

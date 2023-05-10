@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cardPayment">Оплата картой</div>
+      <div class="AutoPaymentBox">
+        <div class="AutoPaymentInput">
+          <div class="emailInput">
+            <span class="emailText"> E-mail для отправки квитанции</span>
+            <p><input class="receiptEmail" placeholder="e-mail" /></p>
+          </div>
+          <div class="sumInput">
+            <span class="sumText">Сумма платежа </span>
+
+            <!-- <p><input class="paymentSum" placeholder="0" /></p> -->
+            <p>
+              <span class="paymentInput"
+                ><input type="text" placeholder="0"
+              /></span>
+            </p>
+          </div>
+        </div>
+        <div class="AutoPaymentToggle">
+          <div class="custom-control custom-switch">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="customSwitches"
+            />
+            <label
+              class="custom-control-label"
+              for="customSwitches"
+              style="
+              color:#2C3537;
+                width: 722px;
+                height: 22px;
+                font-family: 'Ubuntu';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+              "
+              >Создать автоплатеж</label
+            >
+          </div>
+        </div>
+        <button class="AutoPaymentButton">
+          <span class="btnText">Продолжить</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
